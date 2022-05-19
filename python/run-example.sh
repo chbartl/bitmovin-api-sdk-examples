@@ -7,4 +7,4 @@ pip3 install -r requirements.txt
 PYTHONPATH="${PYTHONPATH}:$(pwd)"
 export PYTHONPATH
 
-python3 "./src/$file_name.py" "$@"
+python3 "src/$file_name.py" "$@"
